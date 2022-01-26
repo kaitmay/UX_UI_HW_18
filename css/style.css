@@ -18,26 +18,31 @@ body {
     display: inline-block;
   }
   .heroImg {
-    background-color: white;
-    padding: 100px 100px;
+    background-color: #AEB8C2;
+    padding: 10px 10px;
   }
   .content {
     max-width: 300px;
     margin: 0 auto;
     padding: 50px;
-    background-color: #AEB8C2;
     text-align: center;
   }
   .profilePicture {
     max-width: fit-content;
     max-height: 300px;
+    display: inline-block;
+    padding: 0px 7px;
+
   }
   .content h1{
     color:white;
+    text-align: center;
+  
   }
   
   .content p{
     color: #5A697E;
+    text-align: center;
   }
   button {
     padding: 15px;
@@ -60,7 +65,63 @@ body {
     padding: 0px 7px;
   }
 
+.WORKPIC{
+max-width: fit-content;
+}
+.test1{
+  background-color: #AEB8C2;
+  padding: 10px;
+
+}
   .WhatIDo {
-    background-color: white;
-    padding: 100px 100px;
+    background-color:#AEB8C2 ;
+    display: flex;
+
   }
+  .Cards {
+    background-color: white;
+    display:flex;
+    width:33%;
+    padding:50px;
+    flex-direction: column;
+    margin: 10px;
+    text-align: left;
+
+  }
+  .Cards P{
+    color: #5A697E;
+    text-align: left;
+    margin:0%
+}
+  h1 {
+    color:white;
+    font-size:30px;
+    padding:30px;
+    text-align: center;
+
+  }
+  .Projects{
+    background-color:white ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "work1 work2";
+
+  }
+  .Work {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    width:33%;
+    padding:10px;
+ 
+  }
+h2{
+    color:#5A697E;
+    font-size:25px;
+    padding:10px;
+    text-align: left;
+
+  }
+  @media only screen and (max-width:600) {
+    
+    }
