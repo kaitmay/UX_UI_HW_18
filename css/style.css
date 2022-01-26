@@ -123,5 +123,6 @@ h2{
 
   }
   @media only screen and (max-width:600) {
-    
+    display> flex;
+    flex-direction> row>
     }
